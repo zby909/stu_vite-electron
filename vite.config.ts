@@ -14,6 +14,7 @@ import { buildPlugin } from "./plugins/buildPlugin";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [optimizer(getReplacer()), devPlugin(), vue()],
+  publicDir: "public",
   build: {
     rollupOptions: {
       plugins: [buildPlugin()],

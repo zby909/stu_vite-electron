@@ -1,7 +1,7 @@
 {
   "name": "electron-jue-jin",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -16,5 +16,8 @@
     "vite-plugin-optimizer": "^1.4.2",
     "vue": "^3.2.47",
     "vue-tsc": "^1.2.0"
+  },
+  "dependencies": {
+    "vue-router": "^4.2.1"
   }
 }
